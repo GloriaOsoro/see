@@ -110,7 +110,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 <nav>
        <!-- Wrapper -->
       <div class="wrapper style1" style="padding-top: 10%;">
-      <h1>Thank you for contacting us – we will get back to you soon!</h1>
+      <h1 align="center">Thank you for contacting us – we will get back to you soon!</h1>
     </div>
       <div class="wrapper style1" style="padding-top: 5%;">
                   <a  style="text-decoration:none;color:#0000FF;" href="index.php"><img src="images/news.jpg" alt="news" width="133" height="130" style="border-radius: 80px; margin-left: 220px; margin-bottom: 0px;"> WANT TO READ THE LATEST NEWS FROM S.E.E Differece Africa?</a>
