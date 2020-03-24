@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>S.E.E Difference Africa</title>
+    <title>Home | S.E.E Difference Africa</title>
     
     <!-- Links -->
     <link rel="icon" type="text/css" href="images/logo3.png">

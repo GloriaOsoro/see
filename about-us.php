@@ -2,7 +2,7 @@
 
 <html>
   <head>
-    <title>Upcoming Events | S.E.E Difference Africa</title>
+    <title>About Us | S.E.E Difference Africa</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="description" content="" />
     <meta name="keywords" content="" />
