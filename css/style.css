@@ -60,7 +60,7 @@ html,body{
 	border-bottom: 0px;
 }
 #cards .row .col-md-4 .details hr{
-	border-bottom: 3px solid #0033ff;
+	border-bottom: 3px solid #191919;
 	width: 42px;
 	margin-left: 0px;
 }
@@ -75,7 +75,7 @@ html,body{
 	padding-top: 0px;
 }
 #head{
-	color: #0033ff;
+	color: #191919;
 }
 .welcome{
 	color: #000;
