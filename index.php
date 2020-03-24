@@ -25,7 +25,7 @@
     <div id="home">
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
             <div class="navbar-brand">
-                <a style="text-decoration:none" href="index.php"><img src="images/logo3.png" alt="logo" width="50" height="50" style="border-radius: 60px; margin-left: 35px; margin-bottom: 4px;"> S.E.E Difference Africa</a>
+                <a style="text-decoration:none" href="index.php"><img src="images/logo3.png" alt="logo" width="50" height="50" style="border-radius: 60px; margin-left: 35px; margin-bottom: 4px;"> <span style="color:white">S.E.E Difference Africa</span></a>
             </div>
             <!--  -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
