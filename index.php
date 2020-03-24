@@ -332,7 +332,7 @@ myBgFader.start();
 
 // Code for the typeWritter
 var typewritter = new Typewriter('.typed', { loop: true });
-typewritter.typeString ('S.E.E Difference Africa')
+typewritter.typeString ('')
     .pauseFor(1000)
     // .deleteChars(6)
     // .pauseFor(500)
@@ -341,7 +341,7 @@ typewritter.typeString ('S.E.E Difference Africa')
     // // .deleteChars(7)
     // .typeString('and Abroad')
     // .deleteAll()
-    // .typeString('Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus aut reiciendis,')
+    .typeString('</span><span style="color:cyan">S.E.E Difference Africa</span>')
     .pauseFor(1000)
     .start();
 
