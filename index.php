@@ -17,6 +17,8 @@
     <link rel="stylesheet" type="text/css" href="css/util.css">
     <link rel="stylesheet" type="text/css" href="css/bgfader.css"> 
     <link rel="stylesheet" type="text/css" href="css/style.css">
+
+      <link rel="stylesheet" href="assets/css/main.css" />
 </head>
 <!-- Particles.js -->
 <!-- Creative backgrounds -->
@@ -57,11 +59,11 @@
                 <div class="row h-100 justify-content-center align-items-center">
                     <div class="welcome text-center">
                         <div>
-                            <h3 style="color:#F5FFFA;" class="">Welcome to </h3>
+                            <h3 style="color:#F5FFFA;font-size: 22px;" class="">Welcome to </h3>
                             <h1 class="typed">S.E.E Difference Africa</h1>
                         </div>
                         <div>
-                            <h5 style="color:#F5FFFA;">Combating social, economic, and environmental matters,in Africa. Working towards creating a sustainable future for all.</h5>
+                            <h5 style="color:#F5FFFA; font-size: 22px;">Combating social, economic, and environmental matters,in Africa. Working towards creating a sustainable future for all.</h5>
                         </div>
                     </div>
                 </div>
@@ -104,7 +106,7 @@
                                 </div>
                                 <div class="description">
                                     <div class="container">
-                                        <p>We are aware that social problems like the exclusion and marginalization of a given population stem from social instability and violence. That's why — as a highly committed and responsible organization focusing on the values inherent in Social, Economic and Environmental matters — we strive to leverage the strength of our brand to bring about change across the globe and target by next 20 years the world will be a better place to be proud of.</p>
+                                        <p>As a highly committed and responsible organization focusing on the values inherent in Social, Economic and Environmental matters — we strive to leverage the strength of our brand to bring about change across the globe and target by next 20 years the world will be a better place to be proud of.</p>
                                     </div>
                                 </div>
                             </div>
@@ -118,7 +120,7 @@
                                 </div>
                                 <div class="description">
                                     <div class="container">
-                                        <p>S.E.E. Difference Africa is a non-profit organization officially founded by Webster Avosa and Gloria Osoro. It is a subsidiary of S.E.E Difference founded by Tate Weaver in May of 2019 to tackle issues, locating the root cause(s), putting our heads together, and finding permanent, sustainable solutions.A better tomorrow... that's the name of the game! <br> S.E.E Difference is an acronym to stand for Social Economic and Environmental Difference <br></p>
+                                        <p>S.E.E. Difference Africa is a non-profit organization officially founded by Webster Avosa and Gloria Osoro. It is a subsidiary of S.E.E Difference founded by Tate Weaver in May of 2019 to tackle issues, locating the root cause(s), putting our heads together, and finding permanent, sustainable solutions.<br></p>
                                     </div>
                                 </div>
                             </div>
@@ -144,23 +146,50 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
 /* Set a style for the submit button */
 .btn {
-  background-color: none;
+  background-color: transparent;
   color: white;
   padding: 15px 20px;
   border: none;
   cursor: pointer;
- 
+}
+
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -4em;
+}
+
+#footer {
+    background: black;
+    height: 100px;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+    padding: 20px;
 }
 
 .btn:hover {
   opacity: 1;
 }
+.icon {
+  padding: 10px;
+  background: grey;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
 </style>
 </head>
 <body>
 
-
-<form action="feedback.php" target="_blank" method="post" style="max-width:800px;margin:auto">
+<section>
+ <form action="feedback.php" target="_blank" method="post" style="max-width:800px;margin:auto">
   <h2 style="color: #000;">Contact Us</h2>
   <div class="input-container">
     <i class="fa fa-user icon"></i>
@@ -172,12 +201,14 @@ body {font-family: Arial, Helvetica, sans-serif;}
     <input class="input-field" type="text" placeholder="Enter your Email" onfocus="this.value=''" value="" name="email" required>
   </div>
    <div class="form-group">
-    <label>Message</label>
+    <label><strong style="background-color: transparent; color: white;">Message</strong></label>
     <textarea class="input-field" rows="5" name="form-message" placeholder="Enter your Message here..." onfocus="this.value=''" value="" required></textarea>
     </div>
 
   <button style="background-color: green; id="btn"type="submit" class="btn">Submit</button>
-</form>
+</form> 
+</section>
+
 
             
         
@@ -187,18 +218,16 @@ body {font-family: Arial, Helvetica, sans-serif;}
         <!-- footer -->
         <!-- Footer -->
          <div class="wrapper style1" style="padding-top: 1%;">
-<footer class="page-footer font-small unique-color-dark">
+<footer class="wrapper">
 
-  <div style="background-color: #005c80; color: white;">
+  <div style="background-color: black; color: white;">
     <div class="container">
 
       <!-- Grid row-->
       <div class="row py-4 d-flex align-items-center">
 
         <!-- Grid column -->
-        <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
-          <h6 class="mb-0">Get connected with us on social networks!</h6>
-        </div>
+       
         <!-- Grid column -->
         <div class="col-md-6 col-lg-7 text-center text-md-right">
 
@@ -242,7 +271,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
       <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
 
         <!-- Content -->
-        <h6 class="text-uppercase font-weight-bold" style="font-size: 120%">S.E.E Difference Africa</h6>
+        <h6 class="text-uppercase font-weight-bold" style="font-size: 120%; color: white;">S.E.E Difference Africa</h6>
         <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
         <p>Combating social, economic, and environmental matters, in Africa. Working towards creating a sustainable future for all! </p>
 
@@ -254,7 +283,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
       <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
 
         <!-- Links -->
-        <h6 class="text-uppercase font-weight-bold">Contact</h6>
+        <h6 class="text-uppercase font-weight-bold"><strong style="color: white;">Contact</strong></h6>
         <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
         <p>
           <i class="fa fa-home mr-3"></i> Mombasa, Kenya</p>
@@ -262,9 +291,6 @@ body {font-family: Arial, Helvetica, sans-serif;}
           <i class="fa fa-envelope mr-3"></i> seedifferencenonprofit@gmail.com</p>
         <p>
           <i class="fa fa-phone mr-3"></i> +2547 17 678794</p>
-        <p>
-          <i class="fa fa-print mr-3"></i> +2547 17 678794</p>
-
       </div>
       <!-- Grid column -->
 
@@ -276,13 +302,19 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
   <!-- Copyright -->
   <div class="footer-copyright text-center py-3">
-    <a style="text-decoration:none;color:#0000CD" href="index.php">© 2020 by S.E.E. Difference Africa</a>
+    <a style="text-decoration:none;color:white" href="index.php">© 2020 by S.E.E. Difference Africa</a>
   </div>
   <!-- Copyright -->
-
 </footer>
-<!-- Footer -->
-  </body>
+</div>
+</body>
+</div>
+</li>
+</ul>
+</div>
+</nav>
+</div>
+</body>
 </html>
 
 

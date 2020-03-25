@@ -95,18 +95,19 @@ body {font-family: Arial, Helvetica, sans-serif;}
         <!-- footer -->
         <!-- Footer -->
          <div class="wrapper style1" style="padding-top: 30%;">
-<footer class="page-footer font-small unique-color-dark">
+  <!-- footer -->
+        <!-- Footer -->
+         <div class="wrapper style1" style="padding-top: 1%;">
+<footer class="wrapper">
 
-  <div style="background-color: #005c80; color: white;">
+  <div style="background-color: black; color: white;">
     <div class="container">
 
       <!-- Grid row-->
       <div class="row py-4 d-flex align-items-center">
 
         <!-- Grid column -->
-        <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
-          <h6 class="mb-0">Get connected with us on social networks!</h6>
-        </div>
+       
         <!-- Grid column -->
         <div class="col-md-6 col-lg-7 text-center text-md-right">
 
@@ -150,7 +151,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
       <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
 
         <!-- Content -->
-        <h6 class="text-uppercase font-weight-bold" style="font-size: 120%">S.E.E Difference Africa</h6>
+        <h6 class="text-uppercase font-weight-bold" style="font-size: 120%; color: white;">S.E.E Difference Africa</h6>
         <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
         <p>Combating social, economic, and environmental matters, in Africa. Working towards creating a sustainable future for all! </p>
 
@@ -162,7 +163,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
       <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
 
         <!-- Links -->
-        <h6 class="text-uppercase font-weight-bold">Contact</h6>
+        <h6 class="text-uppercase font-weight-bold"><strong style="color: white;">Contact</strong></h6>
         <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
         <p>
           <i class="fa fa-home mr-3"></i> Mombasa, Kenya</p>
@@ -170,9 +171,6 @@ body {font-family: Arial, Helvetica, sans-serif;}
           <i class="fa fa-envelope mr-3"></i> seedifferencenonprofit@gmail.com</p>
         <p>
           <i class="fa fa-phone mr-3"></i> +2547 17 678794</p>
-        <p>
-          <i class="fa fa-print mr-3"></i> +2547 17 678794</p>
-
       </div>
       <!-- Grid column -->
 
@@ -184,11 +182,17 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
   <!-- Copyright -->
   <div class="footer-copyright text-center py-3">
-    <a style="text-decoration:none;color:#0000CD" href="index.php">© 2020 by S.E.E. Difference Africa</a>
+    <a style="text-decoration:none;color:white" href="index.php">© 2020 by S.E.E. Difference Africa</a>
   </div>
   <!-- Copyright -->
-
 </footer>
-<!-- Footer -->
-  </body>
+</div>
+</body>
+</div>
+</li>
+</ul>
+</div>
+</nav>
+</div>
+</body>
 </html>

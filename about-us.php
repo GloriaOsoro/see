@@ -7,6 +7,7 @@
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
 <style>
 #more {display: none;}
 </style>
@@ -26,6 +27,8 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/home.css">
     <link rel="stylesheet" href="css/gallery_style.css" />
+
+    <link rel="stylesheet" href="assets/css/main.css" />
   </head>
   <body>
 <style>
@@ -54,10 +57,10 @@ body {font-family: Arial, Helvetica, sans-serif;}
 </style>
 </head>
 <body>
-
+<section>
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
-            <div class="navbar-brand">
-                  <a style="text-decoration:none" href="index.php"><img src="images/logo3.png" alt="logo" width="50" height="50" style="border-radius: 60px; margin-left: 35px; margin-bottom: 4px;"> <span style="color:white">S.E.E Difference Africa</span></a>
+            <div class="navbar-collapse collapse">
+                  <a style="text-decoration:none" href="index.php"><img src="images/logo3.png" alt="logo" width="50" height="50" style="border-radius: 60px; margin-left: 35px; margin-bottom: 4px;"> <strong><span style="color:white">S.E.E Difference Africa</span></strong></a>
             </div>
             <!--  -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -80,15 +83,30 @@ body {font-family: Arial, Helvetica, sans-serif;}
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contact-us.php"><button type="button" class="btn btn-outline-success">Contact Us</button></a>
+                      </li>
                     </li>
-                </ul>
-            </div>
-        </nav>
+                  </ul>
+                </div>
+              </nav>
+            </section>
 
        <!-- Wrapper -->
     
+      <section class="wrapper">
+        <div class="inner">
+          <header class="special">
+            <h2>What we stand for</h2>
+            <p></p>
+          </header>
+        </div>
+      </section>
+
+
+
+
     <!-- Wrapper -->
-      <div class="wrapper style1" style="padding-top: 10%;">
+      <section>
+        <div class="wrapper style1" style="padding-top: 5%;">
 
         <!-- Extra -->
           <div id="extra">
@@ -97,32 +115,87 @@ body {font-family: Arial, Helvetica, sans-serif;}
                 <section class="4u"> <a href="#" class="image featured"><img src="images/g3.jpg" alt="" width="100" height="300"></a>
                   <div class="box">
                     <h2>Webster Avosa</h2>
-                     <p class="title">Co-Founder and Managing Director</p>
+                     <p class="title"><span style="color: grey; font-size: 12px;">Co-Founder and Managing Director</span></p>
                     <p>Webster Avosa is from Mombasa, Kenya. He assists in developing and maintaining</p>
                     <a href="#" class="button">Read More</a> </div>
                 </section>
                 <section class="4u"> <a href="#" class="image featured"><img src="images/g13g.jpg" alt="" width="100" height="300"></a>
                   <div class="box">
                      <h2>Gloria Osoro</h2>
-                     <p class="title">Co-Founder and Executive Director</p>
+                     <p class="title"><span style="color: grey; font-size: 12px;">Co-Founder and Executive Director</span></p>
                     <p>Gloria hails from Kilifi, Kenya. She holds a spot on the board of directors as she</p>
                     <a href="#" class="button">Read More</a> </div>
                 </section>
                 <section class="4u"> <a href="#" class="image featured"><img src="images/t5.jpg" alt="" width="100" height="300"></a>
                   <div class="box">
                      <h2>Tate Weaver</h2>
-                     <p class="title">Board Member</p>
+                     <p class="title"><span style="color: grey; font-size: 12px;">Board Member</span></p>
                     <p>Based out of Portland, Oregon, Tate Weaver got a fiery passion to do good</p>
                     <a href="#" class="button">Read More</a> </div>
                 </section>
               </div>
             </div>
           </div>
-  </div>
-
-</div>
+        </div>
+      </section>
 
   
+
+
+
+<!-- Testimonials -->
+      <section class="wrapper">
+        <div class="inner">
+          <header class="special">
+            <h2>Quotes</h2>
+            <p></p>
+          </header>
+          <div class="testimonials">
+            <section>
+              <div class="content">
+                <blockquote>
+                  <p>“I want to work alongside others both to amplify known ways and to explore new ways of fighting the devastating impact of climate change on this planet we all share”</p>
+                </blockquote>
+                <div class="author">
+                  <div class="image">
+                    <img src="images/pic01.jpg" alt="" />
+                  </div>
+                  <p class="credit">- <strong>Jeff Bezos</strong> <span>CEO - Amazon Inc.</span></p>
+                </div>
+              </div>
+            </section>
+            <section>
+              <div class="content">
+                <blockquote>
+                  <p>"There is one issue that will define the contours of this centuary more dramatically than the other ,and that is the urgent threat of changing the environment"</p>
+                </blockquote>
+                <div class="author">
+                  <div class="image">
+                    <img src="images/pic03.jpg" alt="" />
+                  </div>
+                  <p class="credit">- <strong>Barrack Obama</strong> <span>President - Obama Foundation.</span></p>
+                </div>
+              </div>
+            </section>
+            <section>
+              <div class="content">
+                <blockquote>
+                  <p>People of conscience need to break their ties with corporations financing the injustice of environmental and climatic change</p>
+                </blockquote>
+                <div class="author">
+                  <div class="image">
+                    <img src="images/pic02.jpg" alt="" />
+                  </div>
+                  <p class="credit">- <strong>Desmond Tutu</strong> <span>Cleric - Anglican Church.</span></p>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+
+
+
 
  
 
@@ -131,21 +204,19 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
 
 
-        <!-- footer -->
+    <!-- footer -->
         <!-- Footer -->
          <div class="wrapper style1" style="padding-top: 1%;">
-<footer class="page-footer font-small unique-color-dark">
+<footer class="wrapper">
 
-  <div style="background-color: #005c80; color: white;">
+  <div style="background-color: black; color: white;">
     <div class="container">
 
       <!-- Grid row-->
       <div class="row py-4 d-flex align-items-center">
 
         <!-- Grid column -->
-        <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
-          <h6 class="mb-0">Get connected with us on social networks!</h6>
-        </div>
+       
         <!-- Grid column -->
         <div class="col-md-6 col-lg-7 text-center text-md-right">
 
@@ -189,7 +260,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
       <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
 
         <!-- Content -->
-        <h6 class="text-uppercase font-weight-bold" style="font-size: 120%">S.E.E Difference Africa</h6>
+        <h6 class="text-uppercase font-weight-bold" style="font-size: 120%; color: white;">S.E.E Difference Africa</h6>
         <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
         <p>Combating social, economic, and environmental matters, in Africa. Working towards creating a sustainable future for all! </p>
 
@@ -201,7 +272,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
       <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
 
         <!-- Links -->
-        <h6 class="text-uppercase font-weight-bold">Contact</h6>
+        <h6 class="text-uppercase font-weight-bold"><strong style="color: white;">Contact</strong></h6>
         <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
         <p>
           <i class="fa fa-home mr-3"></i> Mombasa, Kenya</p>
@@ -209,9 +280,6 @@ body {font-family: Arial, Helvetica, sans-serif;}
           <i class="fa fa-envelope mr-3"></i> seedifferencenonprofit@gmail.com</p>
         <p>
           <i class="fa fa-phone mr-3"></i> +2547 17 678794</p>
-        <p>
-          <i class="fa fa-print mr-3"></i> +2547 17 678794</p>
-
       </div>
       <!-- Grid column -->
 
@@ -223,11 +291,17 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
   <!-- Copyright -->
   <div class="footer-copyright text-center py-3">
-    <a style="text-decoration:none;color:#0000CD" href="index.php">© 2020 by S.E.E. Difference Africa</a>
+    <a style="text-decoration:none;color:white" href="index.php">© 2020 by S.E.E. Difference Africa</a>
   </div>
   <!-- Copyright -->
-
 </footer>
-<!-- Footer -->
-  </body>
+</div>
+</body>
+</div>
+</li>
+</ul>
+</div>
+</nav>
+</div>
+</body>
 </html>
