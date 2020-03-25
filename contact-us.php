@@ -90,20 +90,20 @@ body {font-family: Arial, Helvetica, sans-serif;}
      
               
 
-<form action="feedback.php" target="_blank" style="max-width:800px;margin:auto">
-  <h2>Contact Us</h2>
+<form action="feedback.php" target="_blank" method="post" style="max-width:800px;margin:auto">
+  <h2 style="color: #000;">Contact Us</h2>
   <div class="input-container">
     <i class="fa fa-user icon"></i>
-    <input class="input-field" type="text" placeholder="Enter your Email"onfocus="this.value=''" value="" name="username">
+    <input class="input-field" type="text" placeholder="Enter your username"onfocus="this.value=''" value="" name="username" required>
   </div>
 
   <div class="input-container">
     <i class="fa fa-envelope icon"></i>
-    <input class="input-field" type="text" placeholder="Enter your Email" onfocus="this.value=''" value="" name="email">
+    <input class="input-field" type="text" placeholder="Enter your Email" onfocus="this.value=''" value="" name="email" required>
   </div>
    <div class="form-group">
     <label>Message</label>
-    <textarea class="input-field" rows="5" name="form-message" placeholder="Enter your Message here..." onfocus="this.value=''" value=""></textarea>
+    <textarea class="input-field" rows="5" name="form-message" placeholder="Enter your Message here..." onfocus="this.value=''" value="" required></textarea>
     </div>
 
   <button style="background-color: green; id="btn"type="submit" class="btn">Submit</button>
