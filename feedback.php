@@ -32,29 +32,10 @@
 body {font-family: Arial, Helvetica, sans-serif;}
 * {box-sizing: border-box;}
 
-.input-container {
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  width: 100%;
-  margin-bottom: 15px;
-}
-
-.icon {
-  padding: 10px;
-  background: none;
-  color: white;
-  min-width: 50px;
-  text-align: center;
-}
-
 .input-field {
   width: 100%;
   padding: 10px;
   outline: none;
-}
-
-.input-field:focus {
-  border: 2px solid dodgerblue;
 }
 
 /* Set a style for the submit button */
@@ -64,20 +45,46 @@ body {font-family: Arial, Helvetica, sans-serif;}
   padding: 15px 20px;
   border: none;
   cursor: pointer;
-  width: 100%;
-  opacity: 0.9;
+ 
 }
 
 .btn:hover {
   opacity: 1;
 }
 </style>
+</head>
+<body>
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
             <div class="navbar-brand">
                   <a style="text-decoration:none" href="index.php"><img src="images/logo3.png" alt="logo" width="50" height="50" style="border-radius: 60px; margin-left: 35px; margin-bottom: 4px;"> <span style="color:white">S.E.E Difference Africa</span></a>
             </div>
-            <!--  -->
+        <style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: none;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+ 
+}
+
+.btn:hover {
+  opacity: 1;
+}
+</style>
+</head>
+<body>    <!--  -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -120,9 +127,11 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
   
 
+      
+  
         <!-- footer -->
         <!-- Footer -->
-         <div class="wrapper style1" style="padding-top: 10%;">
+         <div class="wrapper style1" style="padding-top: 1%;">
 <footer class="page-footer font-small unique-color-dark">
 
   <div style="background-color: #005c80; color: white;">

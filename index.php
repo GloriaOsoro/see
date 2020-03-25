@@ -138,29 +138,10 @@
 body {font-family: Arial, Helvetica, sans-serif;}
 * {box-sizing: border-box;}
 
-.input-container {
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  width: 100%;
-  margin-bottom: 15px;
-}
-
-.icon {
-  padding: 10px;
-  background: none;
-  color: white;
-  min-width: 50px;
-  text-align: center;
-}
-
 .input-field {
   width: 100%;
   padding: 10px;
   outline: none;
-}
-
-.input-field:focus {
-  border: 2px solid dodgerblue;
 }
 
 /* Set a style for the submit button */
@@ -170,8 +151,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
   padding: 15px 20px;
   border: none;
   cursor: pointer;
-  width: 100%;
-  opacity: 0.9;
+ 
 }
 
 .btn:hover {
@@ -183,7 +163,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
 
 <form action="feedback.php" target="_blank" style="max-width:800px;margin:auto">
-  <h2>Contact Us</h2>
+  <h2 style="color: #000;">Contact Us</h2>
   <div class="input-container">
     <i class="fa fa-user icon"></i>
     <input class="input-field" type="text" placeholder="Enter your Email"onfocus="this.value=''" value="" name="username">
@@ -203,8 +183,12 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
             
         
+ 
+    
+
         <!-- footer -->
         <!-- Footer -->
+         <div class="wrapper style1" style="padding-top: 1%;">
 <footer class="page-footer font-small unique-color-dark">
 
   <div style="background-color: #005c80; color: white;">
@@ -217,8 +201,6 @@ body {font-family: Arial, Helvetica, sans-serif;}
         <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
           <h6 class="mb-0">Get connected with us on social networks!</h6>
         </div>
-        <!-- Grid column -->
-
         <!-- Grid column -->
         <div class="col-md-6 col-lg-7 text-center text-md-right">
 
@@ -277,13 +259,13 @@ body {font-family: Arial, Helvetica, sans-serif;}
         <h6 class="text-uppercase font-weight-bold">Contact</h6>
         <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
         <p>
-          <i class="fa fa-home mr-3"></i> Mombasa, Kenya,</p>
+          <i class="fa fa-home mr-3"></i> Mombasa, Kenya</p>
         <p>
           <i class="fa fa-envelope mr-3"></i> seedifferencenonprofit@gmail.com</p>
         <p>
-          <i class="fa fa-phone mr-3"></i> +2547 17 678 794</p>
+          <i class="fa fa-phone mr-3"></i> +2547 17 678794</p>
         <p>
-          <i class="fa fa-print mr-3"></i> +2547 17 678 794</p>
+          <i class="fa fa-print mr-3"></i> +2547 17 678794</p>
 
       </div>
       <!-- Grid column -->
@@ -296,12 +278,17 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
   <!-- Copyright -->
   <div class="footer-copyright text-center py-3">
-    <a href="index.php">© 2020 by S.E.E. Difference Africa</a>
+    <a style="text-decoration:none;color:#0000CD" href="index.php">© 2020 by S.E.E. Difference Africa</a>
   </div>
   <!-- Copyright -->
 
 </footer>
 <!-- Footer -->
+  </body>
+</html>
+
+
+
 
 
 </body>

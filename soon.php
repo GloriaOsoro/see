@@ -32,29 +32,10 @@
 body {font-family: Arial, Helvetica, sans-serif;}
 * {box-sizing: border-box;}
 
-.input-container {
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  width: 100%;
-  margin-bottom: 15px;
-}
-
-.icon {
-  padding: 10px;
-  background: none;
-  color: white;
-  min-width: 50px;
-  text-align: center;
-}
-
 .input-field {
   width: 100%;
   padding: 10px;
   outline: none;
-}
-
-.input-field:focus {
-  border: 2px solid dodgerblue;
 }
 
 /* Set a style for the submit button */
@@ -64,14 +45,15 @@ body {font-family: Arial, Helvetica, sans-serif;}
   padding: 15px 20px;
   border: none;
   cursor: pointer;
-  width: 100%;
-  opacity: 0.9;
+ 
 }
 
 .btn:hover {
   opacity: 1;
 }
 </style>
+</head>
+<body>
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
             <div class="navbar-brand">
@@ -110,9 +92,10 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
   
 
+
         <!-- footer -->
         <!-- Footer -->
-         <div class="wrapper style1" style="padding-top: 34%;">
+         <div class="wrapper style1" style="padding-top: 30%;">
 <footer class="page-footer font-small unique-color-dark">
 
   <div style="background-color: #005c80; color: white;">
