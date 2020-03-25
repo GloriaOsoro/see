@@ -72,9 +72,7 @@
             <span class="social-icons">
                 <a href="#"><i class="fa fa-facebook"></i></a>
                 <a href="#"><i class="fa fa-twitter"></i></a>
-                <a href="#"><i class="fa fa-youtube"></i></a>
                 <a href="#"><i class="fa fa-linkedin"></i></a>
-                <!-- <a href="#"><i class="fa fa-linkedIn"></i></a> -->
                 <a href="#"><i class="fa fa-instagram"></i></a>
             </span>
         </div>
