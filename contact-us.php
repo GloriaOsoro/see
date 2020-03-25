@@ -99,7 +99,18 @@ body {font-family: Arial, Helvetica, sans-serif;}
 </head>
 <body>
 
-<section style="padding-top: 70px;">
+
+
+
+
+
+
+
+
+
+
+
+<section>
  <form action="feedback.php" target="_blank" method="post" style="max-width:800px;margin:auto">
   <h2 style="color: #000;">Contact Us</h2>
   <div class="input-container">
@@ -118,8 +129,6 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
   <button style="background-color: green; id="btn"type="submit" class="btn">Submit</button>
 </form> 
-</section>
-
 
             
         
@@ -128,7 +137,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
   <!-- footer -->
         <!-- Footer -->
          <div class="wrapper style1" style="padding-top: 1%;">
-<footer class="wrapper">
+<footer style="padding-bottom: 30px" class="wrapper">
 
   <div style="background-color: black; color: white;">
     <div class="container">
