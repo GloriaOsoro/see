@@ -186,28 +186,30 @@ body {font-family: Arial, Helvetica, sans-serif;}
 }
 </style>
 </head>
-<body>
 
-<section>
- <form action="feedback.php" target="_blank" method="post" style="max-width:800px;margin:auto">
+
+<body>
+<section>-
+ <form action="feedback.php" target="_blank" method="GET" style="max-width:800px;margin:auto">
   <h2 style="color: #000;">Contact Us</h2>
   <div class="input-container">
     <i class="fa fa-user icon"></i>
-    <input class="input-field" type="text" placeholder="Enter your username"onfocus="this.value=''" value="" name="username" required>
+    <input class="input-field" type="text" placeholder="Enter your username" onfocus="this.value=''" value="" name="username" required>
   </div>
 
   <div class="input-container">
     <i class="fa fa-envelope icon"></i>
-    <input class="input-field" type="text" placeholder="Enter your Email" onfocus="this.value=''" value="" name="email" required>
+    <input name="email" type="email" class="form-control input-lg" placeholder="Enter your Email" onfocus="this.value=''" value="" name="username" required>
   </div>
    <div class="form-group">
     <label><strong style="background-color: transparent; color: white;">Message</strong></label>
     <textarea class="input-field" rows="5" name="form-message" placeholder="Enter your Message here..." onfocus="this.value=''" value="" required></textarea>
     </div>
 
-  <button style="background-color: green; id="btn"type="submit" class="btn">Submit</button>
+  <button style="background-color: green; id="btn";type="submit" class="btn">Submit</button>
 </form> 
 </section>
+</body>
 
 
             

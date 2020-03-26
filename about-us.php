@@ -95,7 +95,9 @@ body {font-family: Arial, Helvetica, sans-serif;}
       <section class="wrapper">
         <div class="inner">
           <header class="special">
-            <h2>What we stand for</h2>
+            <p>___Who we are___</p>
+            <h2 style="font-size: 30px";>EXECUTIVE LEADERSHIP TEAM</h2>
+            <P> <span>Our executive leadership team oversees all the foundation's efforts. The committee meets regularly to ensure that all of our teams perform efficiently and to facilitate cross-functional connections.</span></P>
             <p></p>
           </header>
         </div>
