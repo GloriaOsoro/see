@@ -8,9 +8,7 @@
     <meta name="keywords" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-<style>
-#more {display: none;}
-</style>
+
     <script src="js/jquery.min.js"></script>
   
 
@@ -208,7 +206,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
     <!-- footer -->
         <!-- Footer -->
-         <div class="wrapper style1" style="padding-top: 1%;">
+         <div class="wrapper style1" style="padding-top: 0%; padding-bottom: 0%">
 <footer class="wrapper">
 
   <div style="background-color: black; color: white;">

@@ -190,6 +190,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
 <body>
 <section>-
+  <div class="wrapper style1" style="padding-top: 3%%; padding-bottom: 0%">
  <form action="feedback.php" target="_blank" method="GET" style="max-width:800px;margin:auto">
   <h2 style="color: #000;">Contact Us</h2>
   <div class="input-container">
@@ -219,7 +220,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
         <!-- footer -->
         <!-- Footer -->
-         <div class="wrapper style1" style="padding-top: 1%;">
+         <div class="wrapper style1" style="padding-top: 0%%; padding-bottom: 0%">
 <footer class="wrapper">
 
   <div style="background-color: black; color: white;">

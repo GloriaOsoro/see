@@ -2,11 +2,10 @@
 <html>
 
 <head>
+    <title>Home | S.E.E Difference Africa</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Home | S.E.E Difference Africa</title>
-    
     <!-- Links -->
     <link rel="icon" type="text/css" href="images/logo3.png">
     <link rel="stylesheet" type="text/css" href="plugins/bootstrap/css/bootstrap.min.css">
@@ -113,6 +112,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
 <body>
 <section>-
+  <div class="wrapper style1" style="padding-top: 2%%; padding-bottom: 3%">
  <form action="feedback.php" target="_blank" method="GET" style="max-width:800px;margin:auto">
   <h2 style="color: #000;">Contact Us</h2>
   <div class="input-container">
@@ -140,7 +140,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
     
   <!-- footer -->
         <!-- Footer -->
-         <div class="wrapper style1" style="padding-top: 1%;">
+         <div class="wrapper style1" style="padding-top: 10%; padding-bottom: 0%">
 <footer style="padding-bottom: 30px" class="wrapper">
 
   <div style="background-color: black; color: white;">
